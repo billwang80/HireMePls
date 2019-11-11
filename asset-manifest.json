@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec82ad75.chunk.css",
+    "main.js": "/static/js/main.6dffa763.chunk.js",
+    "main.js.map": "/static/js/main.6dffa763.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6235190a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6235190a.js.map",
+    "static/js/2.f148be8d.chunk.js": "/static/js/2.f148be8d.chunk.js",
+    "static/js/2.f148be8d.chunk.js.map": "/static/js/2.f148be8d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9fb15896728f0329190972159d4ae807.js": "/precache-manifest.9fb15896728f0329190972159d4ae807.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ec82ad75.chunk.css.map": "/static/css/main.ec82ad75.chunk.css.map",
+    "static/media/da_vinci.jpg": "/static/media/da_vinci.20adcb4c.jpg",
+    "static/media/education_game.png": "/static/media/education_game.5eec8399.png",
+    "static/media/email_icon.png": "/static/media/email_icon.8e55e432.png",
+    "static/media/email_icon_hover.png": "/static/media/email_icon_hover.2ae43d4b.png",
+    "static/media/email_icon_hover1.png": "/static/media/email_icon_hover1.602315d3.png",
+    "static/media/header2.jpg": "/static/media/header2.3fc2f09c.jpg",
+    "static/media/style.css": "/static/media/header_colour.6367a424.JPG",
+    "static/media/placeholder.jpg": "/static/media/placeholder.8710d7fc.jpg",
+    "static/media/resume_icon.png": "/static/media/resume_icon.bdaef046.png",
+    "static/media/resume_icon_hover.png": "/static/media/resume_icon_hover.9cd08e71.png"
+  }
+}
