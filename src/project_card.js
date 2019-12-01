@@ -5,11 +5,33 @@ import ProjectCardBox from './styled/project_card_box_style.js';
 
 const titleList = [
     "Shop With Me",
+    "Rate Alerts",
+    "E-Wall",
     "Azure"
 ]
+const toolsList = [
+    "Python Flask Firebase",
+    "Java Restful Android",
+    "RobotC EV3",
+    "Java Greenfoot Photoshop"
+]
 const descriptionList = [
-    "Hack the North web app created using TD Da Vinci API to help you find shopping buddies based on your transaction history.",
-    "Cute animated sprites designed for a puzzle game that teaches students how to code. The hero teaches basic concepts such as functions and iteration. Used by over 1000 students during hour of code."
+    "Hack the North web app created using TD Da Vinci API to help you "
+    + "find shopping buddies based on your transaction history. Finally, "
+    + "you won't have to be sad and alone when buying Pokémon cards! "
+    + "Now you'll just be sad!",
+
+    "XE Rate Alerts will monitor your custom currency pairs. The midmarket rate is changing "
+    + "all the time so once your target rate is hit, "
+    + "you'll receive a notification so you won't miss out!",
+
+    "E-Wall is an eco-friendly proof of concept robot that collects and relocates "
+    + "waste. The robot locates and sorts litter using ultrasonic sensors, placing it "
+    + "in neat rows.",
+
+    "Cute animated sprites designed for a puzzle game that teaches students "
+    + "how to code. The player guides the hero using basic concepts such as "
+    + "functions and iteration. Used by over 1000 students during the Hour of Code."
 ]
 
 class ProjectCard extends React.Component {
@@ -30,10 +52,11 @@ class ProjectCard extends React.Component {
     render() {
         return (
             // <ProjectCardBox image={this.props.image} description={this.props.description}>
-            <ProjectCardBox /*onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} onMouseUp={this.toggleHover}*/ onMouseDown={this.toggleHover}>
+            <ProjectCardBox image = { this.props.image }/*onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} onMouseUp={this.toggleHover}*/ onMouseDown={this.toggleHover}>
                 {this.state.isHovered ? 
                     <div>
                         <div class="project_title">{ titleList[ this.props.title - 1] }</div>
+                        <p class="project_tools">{ toolsList[ this.props.tools - 1] }</p>
                         <p class="description_p">{ descriptionList[ this.props.description - 1] }</p> 
                     </div>
                     :
@@ -45,19 +68,19 @@ class ProjectCard extends React.Component {
     }
 }
 
-const keys = [1, 2];
+const keys = [1, 2, 3, 4];
 const listItems = keys.map((key) =>
 
     <ProjectCard 
         image = { key } 
         title = { key }
+        tools = { key }
         description = { key }
     />
 
 );
 
 class ProjectContainer extends React.Component {
-
     render() {
         return ( <ul class = "sectioning"> { listItems } </ul>
             // <div class="sectioning">

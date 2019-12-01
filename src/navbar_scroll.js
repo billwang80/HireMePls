@@ -10,13 +10,11 @@ const NavbarBack = posed.div({
         duration: 400
     },
     visible: {
-        backgroundColor: 'rgba(52, 52, 52, 0.5)',
+        backgroundColor: 'rgba(52, 52, 52, 0.8)',
         //opacity: 1,
         duration: 400
     }
 })
-
-const textList = ['Home', 'Projects', 'About', 'Contact'];
 
 class HoverNav extends React.Component {
     constructor(props) {
@@ -26,36 +24,36 @@ class HoverNav extends React.Component {
         }
     }
 
-    changeState(){
-        var animationClass = cloneDeep(this.state.animationClass);
+    // changeState(){
+    //     var animationClass = cloneDeep(this.state.animationClass);
 
-        if(this.state.animationClass === 'react_unhovered'){
-            animationClass = 'react_chroma'
-            this.setState({
-                animationClass
-            });
-        } else {
-            animationClass = 'react_unhovered'
-            this.setState({
-                animationClass
-            });
-        }
-    }
+    //     if(this.state.animationClass === 'react_unhovered'){
+    //         animationClass = 'react_chroma'
+    //         this.setState({
+    //             animationClass
+    //         });
+    //     } else {
+    //         animationClass = 'react_unhovered'
+    //         this.setState({
+    //             animationClass
+    //         });
+    //     }
+    // }
 
-    handleMouseEnter = (e) => {
-        this.changeState();
-    }
+    // handleMouseEnter = (e) => {
+    //     this.changeState();
+    // }
 
-    handleMouseOut = (e) => {
-        this.changeState();
-    }
+    // handleMouseOut = (e) => {
+    //     this.changeState();
+    // }
 
     render() {
         return (
             <ul>
                 <li><a href="#home" className={this.state.animationClass}>Home</a></li>
-                <li><a href="#projects_section" className={this.state.animationClass} >Projects</a></li>
                 <li><a href="#about" className={this.state.animationClass} >About</a></li>
+                <li><a href="#projects_section" className={this.state.animationClass} >Projects</a></li>
                 <li><a href="#contact" className={this.state.animationClass} >Contact</a></li>
             </ul>
         );

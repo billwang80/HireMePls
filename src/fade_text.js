@@ -24,7 +24,7 @@ class FadeText extends React.Component {
 
     listenScrollEvent = e => {     
         var rect = this.selector.current.getBoundingClientRect();
-        if(rect.top > 64 && rect.bottom < window.innerHeight - 16){
+        if(rect.top > 32 && rect.bottom < window.innerHeight){
             this.setState({isVisible: true});
         } else {
             this.setState({isVisible: false});

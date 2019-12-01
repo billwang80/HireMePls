@@ -39,7 +39,18 @@
 
     <main>
         <article>
-            <section id="projects_section" class="sectioning">
+            <div id="about">
+                <div id="about_title">About Me</div>
+                <div class="row">
+                    <div class="about_image"></div>
+                    <p class="about_description">
+                        I'm currently studying Mechatronics Engineering at the University of Waterloo.
+                        <br><br>I've worked on various projects from different places such as Rate Alerts at XE.com and Syngli's learning platform.
+                        <br><br>I like taking long walks on the beach and going on romantic (or professional) picnics.
+                    </p>
+                </div>
+            </div>
+            <div id="projects_section" class="sectioning">
                 <div id="project_title">Projects</div>
                 <!-- react component -->
                 <div id="projects"></div>
@@ -49,20 +60,13 @@
                         <p class="description_p">Cute animated sprites designed for a puzzle game that teaches students how to code. The hero teaches basic concepts such as functions and iteration. Used by over 1000 students during hour of code.</p> 
                     </div> -->
                 <!-- MAKE PROJECTS IN CARDS THAT ROLL OUT -->
-            </section>
-            <section id="about">
-                <div id="about_title">About</div>
-                <div class="row">
-                    <div class="about_image"></div>
-                    <p class="about_description">I'm currently studying Mechatronics Engineering at the University of Waterloo.</p>
-                </div>
-            </section>
-            <section id="contact" class="sectioning">
+            </div>
+            <div id="contact" class="sectioning">
                 <h2 class="contact_title">Get in Touch</h2>
                 <div class="contact_container">
                     <ul class="contact_list">
                         <li>
-                            <a class="contact_email" href="" target="_blank">
+                            <a class="contact_email" href="mailto:bill.wang@edu.uwaterloo.ca" target="_blank">
                                 <div class="contact_icon_email"></div>
                                 Email
                             </a>
@@ -87,13 +91,12 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+                <div class="footer_container">
+                    <div class="footer_text">Copyright © 2019 Bill Wang</div>
+                </div>
+            </div>
         </article>
     </main>
-
-    <footer>
-
-    </footer>
   </body>
     <!--
       This HTML file is a template.

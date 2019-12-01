@@ -1,6 +1,6 @@
 
 html {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body{
@@ -27,20 +27,12 @@ main h1 {
   width: 100%;
 }
 
-.section_title_about {
-  color: #111;
-  text-align: center;
-  font-size: 2em;
-  padding-bottom: 32px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
+/* this is for projects title */
 .section_title {
   color: #111;
   text-align: center;
   font-size: 2em;
-  margin: 196px;
+  margin: 196px 128px 96px 128px;
 }
 
 .text_section {
@@ -76,6 +68,7 @@ main h1 {
   z-index: 5;
   position: fixed;
   top: 0;
+  height: auto;
 }
 
 .navbar ul {
@@ -83,7 +76,8 @@ main h1 {
   margin-bottom: 0px;
   margin-left: 100px;
   margin-right: 100px;
-  padding: 18px;
+  /* padding: 18px; */
+  padding: 14px;
   display: flex;
   align-items: stretch;
   justify-content: space-between;
@@ -100,7 +94,7 @@ main h1 {
 .navbar ul li a {
   margin-top: 0;
   /* color: white; */
-  font-size: 1.2em;
+  font-size: 1em;
   text-decoration: none;
 }
 
@@ -161,8 +155,15 @@ main h1 {
 .project_title{
   color: #111;
   font-size: 1.8em;
-  margin: 13vh 10vw 5vh 10vw;
+  margin: 10vh 10vw 2vh 10vw;
   letter-spacing: 2px;
+}
+
+.project_tools{
+  color: darkgrey;
+  margin: 0vh 10vw 3vh 10vw;
+  font-size: 0.9em;
+  word-spacing: 1vw;
 }
 
 .description_p{
@@ -174,28 +175,42 @@ main h1 {
 }
 
 #about{
+  /* background: url(images/watercolor2.jpg); */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-color: rgb(182, 182, 182); */
+  color: black;
   display: flex;
   flex-direction: column;
-  padding-bottom: 192px;
   padding-top: 64px;
-  margin-bottom: 16px;
+  margin-top: 64px;
+  /* margin-bottom: 16px; */
+}
+
+.section_title_about {
+  /* color: white; */
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 8px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .about_image{
   height: 40vh;
-  width: 26vh;
-  margin: 0 16px 0 312px;
+  width: 32vh;
+  margin: 0 16px 0 25vw;
   background-size: cover;
   background-position: bottom;
-  background-image: url(images/placeholder.jpg);
+  background-image: url(images/placeholder1.jpg);
 }
 
 .about_description{
   position: relative;
   width: calc(50vw - 16px);
-  padding: 64px 32px 32px 64px;
-  max-width: 450px;
-  font-size: 1.1em
+  padding: 8px 32px 32px 64px;
+  max-width: 420px;
+  font-size: 1em
 }
 
 #contact {
@@ -284,7 +299,7 @@ main h1 {
   border:0;
   margin:0 auto;
   display:block;
-  background: url("images/email_icon_hover1.png");
+  background: url("images/email_icon_hover.png");
   background-size: 48px, 48px;
 }
 
@@ -310,7 +325,7 @@ main h1 {
   border:0;
   margin:0 auto;
   display:block;
-  background: url("images/resume_icon_hover.png");
+  background: url("images/linkedin_icon_hover.png");
   background-size: cover;
 }
 
@@ -324,7 +339,7 @@ main h1 {
   border:0;
   margin:0 auto;
   display:block;
-  background: url("images/resume_icon.png");
+  background: url("images/linkedin_icon.png");
   background-size: cover;
 }
 
@@ -334,7 +349,7 @@ main h1 {
   border:0;
   margin:0 auto;
   display:block;
-  background: url("images/resume_icon_hover.png");
+  background: url("images/github_icon_hover.png");
   background-size: cover;
 }
 
@@ -348,8 +363,30 @@ main h1 {
   border:0;
   margin:0 auto;
   display:block;
-  background: url("images/resume_icon.png");
+  background: url("images/github_icon.png");
   background-size: cover;
+}
+
+.footer_container {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.footer_text {
+  position: absolute;
+  color: rgba(179, 179, 179, 0.89);
+  font-family: "Lato", sans-serif;
+  bottom: 0;
+  font-size: 0.9em;
+  padding: 10px;
+  right: 2vw;
+  /* left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%) */
 }
 
 /* navbar animation */
@@ -360,7 +397,8 @@ main h1 {
 }
 
 .react_unhovered {
-  color: white;
+  color: rgba(255, 255, 255, 0.897);
+  /* font-weight: bold; */
 }
 
 .react_unhovered:hover {
@@ -380,6 +418,10 @@ main h1 {
   -webkit-animation: navbar_animation 12s ease infinite;
   -moz-animation: navbar_animation 12s ease infinite;
   animation: navbar_animation 12s ease infinite;
+}
+
+.react_unhovered:focus {
+  text-decoration: underline;
 }
 
 @-webkit-keyframes navbar_animation {
