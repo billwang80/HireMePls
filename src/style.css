@@ -267,6 +267,7 @@ main h1 {
   color: rgba(255, 255, 255, 0.897); 
   font-size: 1.5em;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .contact_resume:hover .contact_icon_resume {
