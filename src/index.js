@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<NavbarElement />, document.getElementById('navigation'));
 ReactDOM.render(<ProjectContainer />, document.getElementById('projects'));
-ReactDOM.render(<FadeText text="Most people call me Bill." class_name="header_title"/>, document.getElementById('page_title'));
+ReactDOM.render(<FadeText text="Hi I'm Bill!" class_name="header_title"/>, document.getElementById('page_title'));
 ReactDOM.render(<FadeText text="Projects" class_name="section_title"/>, document.getElementById('project_title'));
 ReactDOM.render(<FadeText text="About" class_name="section_title_about"/>, document.getElementById('about_title'));
 

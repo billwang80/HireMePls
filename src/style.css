@@ -267,7 +267,7 @@ main h1 {
   color: rgba(255, 255, 255, 0.897); 
   font-size: 1.5em;
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .contact_resume:hover .contact_icon_resume {
@@ -379,12 +379,14 @@ main h1 {
 
 .footer_text {
   position: absolute;
-  color: rgba(179, 179, 179, 0.89);
+  /* color: rgba(179, 179, 179, 0.89); */
+  color: white;
   font-family: "Lato", sans-serif;
   bottom: 0;
   font-size: 0.9em;
   padding: 10px;
   right: 2vw;
+  text-align: center;
   /* left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%) */

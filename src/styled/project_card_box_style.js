@@ -26,7 +26,7 @@ const ProjectCardBox = styled.div`
     margin-bottom: ${props => {
         // if it is the last one, decrease margin
         if(props.image === 4) return '196px';
-        return '192px'
+        return '164px'
     }};
     align-self: ${props => {
         if (props.image % 2 == 1) return 'flex-start'
