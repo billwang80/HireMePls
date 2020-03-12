@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/hiremepls/static/css/main.083ce9c0.chunk.css",
-    "main.js": "/hiremepls/static/js/main.2c7644e8.chunk.js",
-    "main.js.map": "/hiremepls/static/js/main.2c7644e8.chunk.js.map",
-    "runtime-main.js": "/hiremepls/static/js/runtime-main.cccdfc87.js",
-    "runtime-main.js.map": "/hiremepls/static/js/runtime-main.cccdfc87.js.map",
-    "static/js/2.823d194c.chunk.js": "/hiremepls/static/js/2.823d194c.chunk.js",
-    "static/js/2.823d194c.chunk.js.map": "/hiremepls/static/js/2.823d194c.chunk.js.map",
+    "main.css": "/hiremepls/static/css/main.4e513f5d.chunk.css",
+    "main.js": "/hiremepls/static/js/main.06503f05.chunk.js",
+    "main.js.map": "/hiremepls/static/js/main.06503f05.chunk.js.map",
+    "runtime-main.js": "/hiremepls/static/js/runtime-main.335fa890.js",
+    "runtime-main.js.map": "/hiremepls/static/js/runtime-main.335fa890.js.map",
+    "static/js/2.4a477946.chunk.js": "/hiremepls/static/js/2.4a477946.chunk.js",
+    "static/js/2.4a477946.chunk.js.map": "/hiremepls/static/js/2.4a477946.chunk.js.map",
     "index.html": "/hiremepls/index.html",
-    "precache-manifest.4ac80747e125200c6b3f9eccd5b0e85a.js": "/hiremepls/precache-manifest.4ac80747e125200c6b3f9eccd5b0e85a.js",
+    "precache-manifest.47c23ce7b0fd52dae0ed4f3a6fd93137.js": "/hiremepls/precache-manifest.47c23ce7b0fd52dae0ed4f3a6fd93137.js",
     "service-worker.js": "/hiremepls/service-worker.js",
-    "static/css/main.083ce9c0.chunk.css.map": "/hiremepls/static/css/main.083ce9c0.chunk.css.map",
+    "static/css/main.4e513f5d.chunk.css.map": "/hiremepls/static/css/main.4e513f5d.chunk.css.map",
+    "static/js/2.4a477946.chunk.js.LICENSE.txt": "/hiremepls/static/js/2.4a477946.chunk.js.LICENSE.txt",
     "static/media/biomechatronics.jpg": "/hiremepls/static/media/biomechatronics.0acf5d74.jpg",
     "static/media/da_vinci.jpg": "/hiremepls/static/media/da_vinci.20adcb4c.jpg",
     "static/media/e-wall.jpg": "/hiremepls/static/media/e-wall.b9f7b51f.jpg",
@@ -28,5 +29,11 @@
     "static/media/watercolor3.jpg": "/hiremepls/static/media/watercolor3.e64f4fed.jpg",
     "static/media/watercolor4.jpg": "/hiremepls/static/media/watercolor4.228b2c79.jpg",
     "static/media/xe_rate_alert.png": "/hiremepls/static/media/xe_rate_alert.6c5294ad.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.335fa890.js",
+    "static/js/2.4a477946.chunk.js",
+    "static/css/main.4e513f5d.chunk.css",
+    "static/js/main.06503f05.chunk.js"
+  ]
 }
